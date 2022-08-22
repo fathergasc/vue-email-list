@@ -9,7 +9,7 @@
     </head>
     <body>
         <div id="app"  >
-            <div v-for="(email, index) in emailsList" :class="(emailsList.length < 10)? 'hidden':''">
+            <div v-cloak v-for="(email, index) in emailsList" :class="(emailsList.length < 10)? 'hidden':''">
                 {{email}}
             </div>
         </div>

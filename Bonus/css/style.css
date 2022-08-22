@@ -27,3 +27,7 @@ body {
 .hidden {
   visibility: hidden;
 }
+
+[v-cloak] {
+    display: none;
+}
